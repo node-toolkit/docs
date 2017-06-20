@@ -4,7 +4,7 @@
 
 _This **is not** how documentation will be organized on the actual documentation sites._
 
-If you are working on the documentation site for assemble, you will only need the [assemble docs](src/content/building-blocks/assemble). If you get a `404` or nothing is there yet, that means we haven't collated the information yet (and check back frequently b/c we're working on that now).
+If you are working on the documentation site for assemble, you will only need the [assemble docs](src/content/assemble). If you get a `404` or nothing is there yet, that means we haven't collated the information yet (and check back frequently b/c we're working on that now).
 
 ## The goal
 
