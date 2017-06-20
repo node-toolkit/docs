@@ -34,21 +34,17 @@ The documentation (in this repo, not the sites) should be roughly organized as f
  ├── _draft
  ├─┬ src
  | └─┬ content
- |   ├─┬ automation
- |   | ├── Enquirer
- |   | ├── Microbot
- |   | └── Update
- |   ├─┬ configuration
- |   | ├── Boilerplate
- |   | ├── Scaffold
- |   | └── Snippet
- |   ├─┬ building-blocks
- |   | ├── Base
- |   | └── Templates
- |   ├─┬ lifecycle
- |   | ├── Assemble
- |   | ├── Generate
- |   | └── Verb
+ |   ├── Assemble
+ |   ├── Base
+ |   ├── Boilerplate
+ |   ├── Enquirer
+ |   ├── Generate
+ |   ├── Microbot
+ |   ├── Scaffold
+ |   ├── Snippet
+ |   ├── Templates
+ |   ├── Update
+ |   ├── Verb
  |   └ data
  └── wip
 ```
