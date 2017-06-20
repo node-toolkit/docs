@@ -27,25 +27,27 @@ The documentation (in this repo, not the sites) should be roughly organized as f
 - `_draft`: anything that isn't usable or close to usable. Might be notes, ideas, etc.
 - `wip`: source markdown content that hasn't been reviewed yet
 - `src`: has been reviewd and maybe re-written, de-duped with other collated docs, checked for grammatical errors, etc, and then organized into a specific folder.
-
+  * `_data`: `.json` or `.yml` metadata files for docs
+  * `_templates`: HTML/handlebars or other generic structural template files for docs. 
 
 ```
  .
  ├── _draft
  ├─┬ src
- | └─┬ content
- |   ├── Assemble
- |   ├── Base
- |   ├── Boilerplate
- |   ├── Enquirer
- |   ├── Generate
- |   ├── Microbot
- |   ├── Scaffold
- |   ├── Snippet
- |   ├── Templates
- |   ├── Update
- |   ├── Verb
- |   └ data
+ | ├─┬ _content
+ | | ├── Assemble
+ | | ├── Base
+ | | ├── Boilerplate
+ | | ├── Enquirer
+ | | ├── Generate
+ | | ├── Microbot
+ | | ├── Scaffold
+ | | ├── Snippet
+ | | ├── Templates
+ | | ├── Update
+ | | └── Verb
+ | ├── _data
+ | └── _templates
  └── wip
 ```
 
